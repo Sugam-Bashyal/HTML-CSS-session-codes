@@ -1,0 +1,31 @@
+body{
+ font-weight: bold;
+    background-color: black;
+
+    
+}
+h1{
+    text-align: center;
+    color:red;
+ text-decoration: underline;
+}
+h1 span{
+    text-transform: uppercase;
+}
+#list{  
+    color: white;
+  text-transform: uppercase;
+ text-decoration: underline;
+}
+#para1 {
+    color: red;
+}
+#para2 {
+    color: yellow;
+}
+#para3 {
+    color: green;
+}
+#para4 {
+    color: violet;
+}

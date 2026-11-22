@@ -1,0 +1,35 @@
+.college-name
+
+{
+    /* Change the background color*/
+    background-color: bisque;
+    
+    /*Change the text size */
+    font-size: 50px;
+
+    /*Change the text to bold */
+    font-weight: bold;
+
+    /*Change the text to underlined text */
+    text-decoration: underline;
+
+    /*Lowercase changes the text to small letters --> nepathya*/
+    /*Uppercase changes the text to capital letters --> NEPATHYA*/
+    /*text- transform: lowercase; */
+    text-transform: uppercase; 
+
+    text-align: center;
+
+    /*Changes the font type of the text */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /*add Border to the div */
+    border: 2px solid black;
+    
+    /*add border radius to the div */
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}

@@ -1,0 +1,61 @@
+body {
+    background-color: #dddddd;
+    margin: 0;
+    padding: 0;
+}
+form {
+    background-color: #ffffff;
+    padding: 20px;
+    border: 2px solid #dfdcdc;
+    border-radius: 5px;
+    margin: 0% 33% ;
+}
+ #reset-btn {
+    background-color: #c51616;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+ #reset-btn:hover {
+    background-color: #6c231a;}
+
+ #submit-btn {
+    background-color: #377de5;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+#submit-btn:hover {
+    background-color: #2e1a9b;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    align-items: center;
+}    
+td{
+    padding: 10px;}
+th{
+    padding: 10px;
+    }
+#name {padding: 10px;
+    margin-left: 20px;
+}
+#email {padding: 10px;
+    margin-left: 55px;  
+}
+#password {padding: 10px;
+    margin-left: 30px;
+}
+#age {padding: 10px;
+    margin-left: 67px;
+}
+#dob {padding: 10px;
+    margin-left: 12px;
+}

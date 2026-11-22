@@ -1,0 +1,92 @@
+.skills {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin: 5% 25%;
+    box-shadow: inset 0 0 10px #000000;
+    border-radius: 100px;
+}
+
+button {
+    background-color: #de4747;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+    box-shadow: inset 0 0 8px #000000;
+    margin-left: 50px;
+}
+
+.heads {
+    color: #600909;
+    font-size: 24px;
+    margin-left: 30px;
+}
+
+button:hover {
+    background-color: #0f1c64;
+}
+
+.change-color {
+    color: #333333;
+    cursor: pointer;
+    transition: color 0.2s ease;
+}
+
+.change-color:hover {
+    color: var(--hover-color, #a84646);
+}
+
+#focus {
+    border: 2px solid #de4747;
+    padding: 5px;
+    outline: none;
+}
+
+#focus:focus {
+    border-color: #0f1c64;
+}
+
+.active {
+    border: 2px solid #de4747;
+    padding: 5px;
+    outline: none;
+}
+
+.active:active {
+    background-color: black;
+}
+
+h1 {
+    color: #de4747;
+    text-align: center;
+}
+
+.skills-list {
+    list-style: none;
+    display: flex;
+    margin-right: 10px;
+    gap: 10px;
+}
+
+.skills-list li {
+    background: #4f6075;
+    color: #bfb1b1;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 500;
+    gap: 100px;
+}
+
+.skills-list li:hover {
+    background: #715107;
+    color: white;
+}
+
+.bio {
+    margin-left: 50px;
+    font-size: 16px;
+    color: #333333;
+}
